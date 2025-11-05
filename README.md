@@ -40,7 +40,6 @@ AI_SUPPORT/
 ├─ package.json
 └─ README.md
 ```
-
 _Screenshots zum MVP findest du im Ordner `docs/screens`._
 
 ---
@@ -152,6 +151,11 @@ curl -N -X POST http://localhost:3000/api/support/reply/stream   -H "Content-Typ
 - **`invalid_api_key`** → vollständigen `sk-...` Key eintragen (nicht die gekürzte Anzeige).
 - **Key-Check (lokal)** → `GET /api/debug/env` sollte `{ "hasKey": true }` liefern.
 - **Node 22-Eigenheiten** → ggf. Node 20 LTS testen.
+
+---
+
+## 📄 Changelog
+Der Changelog liegt unter **`docs/CHANGELOG.md`**.
 
 ---
 
